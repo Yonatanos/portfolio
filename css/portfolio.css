@@ -85,7 +85,8 @@ div.gallery:hover {
 }
 
 div.project-title {
-  padding: 5px;
+  padding: 5px auto;
+  width: 368px;
   text-align: center;
   background-color: white;
 }
@@ -188,7 +189,12 @@ footer {
     border: 1px solid #ccc;
     float: left;
     width: 433.5px;
-    height: 283.5px;  }
+    height: 283.5px;
+  }
+
+  div.project-title {
+    margin: auto;
+  }
 }
 
 @media(max-width: 635px) {
@@ -199,5 +205,9 @@ footer {
  div.gallery {
    width: 289px;
    height: 189px;
+ }
+
+ div.project-title {
+   width: 368px;
  }
 }
